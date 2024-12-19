@@ -1,0 +1,59 @@
+2024-12-18 23:37:23,272 - INFO - ====== WebDriver manager ======
+2024-12-18 23:37:23,271 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:23] "POST /run_script HTTP/1.1" 200 -
+2024-12-18 23:37:23,291 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:24,618 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:37:24,734 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:37:24,827 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:37:25,316 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:25] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:26,282 - INFO - Iniciando navegación a https://www.facebook.com/
+2024-12-18 23:37:28,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:28] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:31,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:31] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:34,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:34] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:35,170 - INFO - Clic realizado en la página principal
+2024-12-18 23:37:37,063 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:37] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:40,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:40] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:42,328 - INFO - Comentario realizado: ¡Gracias por tu buen comentario!
+2024-12-18 23:37:42,380 - INFO - Encontrado botón 'View more comments', haciendo clic para cargar más comentarios.
+2024-12-18 23:37:43,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:43] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:46,071 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:46] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:47,144 - ERROR - Error al hacer clic en el elemento: Message: javascript error: {"status":60,"value":"[object HTMLDivElement] has no size and location"}
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00F1EC13+23731]
+	(No symbol) [0x00EAC394]
+	(No symbol) [0x00D8BE63]
+	(No symbol) [0x00D91971]
+	(No symbol) [0x00D9388A]
+	(No symbol) [0x00D93907]
+	(No symbol) [0x00DD540E]
+	(No symbol) [0x00DD49A3]
+	(No symbol) [0x00E125BC]
+	(No symbol) [0x00DF1E5C]
+	(No symbol) [0x00E0B46E]
+	(No symbol) [0x00DF1BF6]
+	(No symbol) [0x00DC3F35]
+	(No symbol) [0x00DC4EBD]
+	GetHandleVerifier [0x011FF0D3+3039603]
+	GetHandleVerifier [0x01212DEA+3120778]
+	GetHandleVerifier [0x0120B592+3089970]
+	GetHandleVerifier [0x00FB43B0+635984]
+	(No symbol) [0x00EB4DCD]
+	(No symbol) [0x00EB2068]
+	(No symbol) [0x00EB2205]
+	(No symbol) [0x00EA4FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:37:49,055 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:49] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:51,682 - INFO - Comentario realizado: ¡Gracias por tu buen comentario!
+2024-12-18 23:37:52,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:52] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:55,057 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:55] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:55,881 - INFO - Comentario realizado: ¡Gracias por tu buen comentario!
+2024-12-18 23:37:55,929 - INFO - Encontrado botón 'View more comments', haciendo clic para cargar más comentarios.
+2024-12-18 23:37:58,055 - INFO - 127.0.0.1 - - [18/Dec/2024 23:37:58] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:37:58,065 - ERROR - Error durante el escaneo: 'MemoryLogger' object has no attribute 'warning'
+2024-12-18 23:38:00,076 - INFO - 127.0.0.1 - - [18/Dec/2024 23:38:00] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:38:00,546 - INFO - Navegador cerrado correctamente
+2024-12-18 23:38:02,092 - INFO - 127.0.0.1 - - [18/Dec/2024 23:38:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:35,797 - INFO -  * Detected change in 'C:\\Users\\ediSh\\Desktop\\fb Tunja\\automatic-Comments-facebook\\facebook_comment_clicker.py', reloading

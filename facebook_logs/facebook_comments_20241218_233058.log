@@ -1,0 +1,224 @@
+2024-12-18 23:30:58,202 - INFO - ====== WebDriver manager ======
+2024-12-18 23:30:58,214 - INFO - 127.0.0.1 - - [18/Dec/2024 23:30:58] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:30:59,422 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:30:59,517 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:30:59,610 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:31:00,229 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:00] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:02,254 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:02,369 - ERROR - Error al configurar el driver: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00F1EC13+23731]
+	(No symbol) [0x00EAC394]
+	(No symbol) [0x00D8BE63]
+	(No symbol) [0x00DBB432]
+	(No symbol) [0x00DB70F9]
+	(No symbol) [0x00DFB449]
+	(No symbol) [0x00DFAC0A]
+	(No symbol) [0x00DF1BF6]
+	(No symbol) [0x00DC3F35]
+	(No symbol) [0x00DC4EBD]
+	GetHandleVerifier [0x011FF0D3+3039603]
+	GetHandleVerifier [0x01212DEA+3120778]
+	GetHandleVerifier [0x0120B592+3089970]
+	GetHandleVerifier [0x00FB43B0+635984]
+	(No symbol) [0x00EB4DCD]
+	(No symbol) [0x00EB2068]
+	(No symbol) [0x00EB2205]
+	(No symbol) [0x00EA4FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:31:02,381 - ERROR - Error en la ejecución principal: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00F1EC13+23731]
+	(No symbol) [0x00EAC394]
+	(No symbol) [0x00D8BE63]
+	(No symbol) [0x00DBB432]
+	(No symbol) [0x00DB70F9]
+	(No symbol) [0x00DFB449]
+	(No symbol) [0x00DFAC0A]
+	(No symbol) [0x00DF1BF6]
+	(No symbol) [0x00DC3F35]
+	(No symbol) [0x00DC4EBD]
+	GetHandleVerifier [0x011FF0D3+3039603]
+	GetHandleVerifier [0x01212DEA+3120778]
+	GetHandleVerifier [0x0120B592+3089970]
+	GetHandleVerifier [0x00FB43B0+635984]
+	(No symbol) [0x00EB4DCD]
+	(No symbol) [0x00EB2068]
+	(No symbol) [0x00EB2205]
+	(No symbol) [0x00EA4FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:31:03,654 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:03] "POST /run_script HTTP/1.1" 200 -
+2024-12-18 23:31:03,656 - INFO - ====== WebDriver manager ======
+2024-12-18 23:31:03,669 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:03] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:04,281 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:04] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:04,950 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:31:05,044 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:31:05,132 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:31:05,693 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:06,491 - INFO - Iniciando navegación a https://www.facebook.com/
+2024-12-18 23:31:07,063 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:07] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:08,073 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:08] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:10,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:10] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:11,062 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:11] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:13,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:13] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:14,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:14] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:15,179 - INFO - Clic realizado en la página principal
+2024-12-18 23:31:16,057 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:16] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:17,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:17] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:19,062 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:19] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:20,053 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:20] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:22,054 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:22] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:23,055 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:25,057 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:25] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:26,054 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:26] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:28,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:28] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:29,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:29] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:31,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:31] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:32,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:32] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:34,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:34] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:35,049 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:35] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:37,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:37] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:37,595 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:37] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:39,079 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:39] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:39,617 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:39] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:41,092 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:41,645 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:43,114 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:43] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:43,679 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:43] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:45,128 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:45] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:46,053 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:46] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:47,560 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:47] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:48,082 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:48] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:49,578 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:49] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:51,049 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:51] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:52,057 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:52] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:54,062 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:54] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:55,050 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:55] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:57,052 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:57] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:31:58,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:31:58] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:00,061 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:00] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:01,054 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:01] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:02,837 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:03,073 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:03] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:05,062 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:06,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:06] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:08,053 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:08] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:09,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:09] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:11,063 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:11] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:12,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:12] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:14,068 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:14] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:15,061 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:15] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:17,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:17] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:18,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:18] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:20,061 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:20] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:21,054 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:21] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:23,050 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:24,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:24] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:26,063 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:26] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:27,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:27] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:29,053 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:29] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:30,085 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:30] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:32,052 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:32] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:33,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:33] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:35,062 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:35] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:36,072 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:36] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:38,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:38] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:39,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:39] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:41,052 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:42,049 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:42] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:44,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:44] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:45,061 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:45] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:47,055 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:47] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:48,053 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:48] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:50,065 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:50] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:50,078 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:50] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:53,051 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:53] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:53,056 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:53] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:56,060 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:56] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:56,065 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:56] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:59,060 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:59] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:32:59,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:32:59] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:02,069 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:02,074 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:05,063 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:05,072 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:07,248 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:08,061 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:08] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:08,067 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:08] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:10,953 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:11,052 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:11] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:11,057 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:11] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:14,049 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:14] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:14,054 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:14] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:14,924 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:33:17,077 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:17] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:17,082 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:17] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:18,543 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:20,069 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:20] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:20,076 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:20] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:22,643 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:33:23,054 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:23,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:26,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:26] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:26,070 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:26] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:26,781 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:33:29,054 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:29] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:29,065 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:29] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:31,197 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:32,068 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:32] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:32,075 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:32] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:35,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:35] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:35,075 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:35] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:35,891 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:38,060 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:38] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:38,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:38] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:40,744 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:41,051 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:41,055 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:44,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:44] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:44,063 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:44] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:45,358 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:33:47,060 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:47] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:47,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:47] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:49,688 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:50,060 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:50] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:50,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:50] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:53,055 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:53] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:53,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:53] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:53,415 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:33:56,060 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:56] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:56,074 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:56] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:57,090 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:33:59,061 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:59] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:33:59,065 - INFO - 127.0.0.1 - - [18/Dec/2024 23:33:59] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:01,529 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:34:02,053 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:02,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:05,062 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:05,068 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:05,418 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:34:08,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:08] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:08,074 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:08] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:09,913 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:34:10,088 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:10] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:10,094 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:10] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:12,114 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:12] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:12,118 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:12] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:14,116 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:34:14,127 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:14] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:14,137 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:14] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:16,147 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:16] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:16,164 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:16] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:18,432 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:34:19,057 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:19] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:34:19,062 - INFO - 127.0.0.1 - - [18/Dec/2024 23:34:19] "GET /script_status HTTP/1.1" 200 -

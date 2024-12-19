@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, WebDriverException
+from selenium.common.exceptions import TimeoutException, WebDriverException, NoSuchElementException, ElementClickInterceptedException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
@@ -64,10 +64,9 @@ class FacebookCommentClicker:
                 EC.presence_of_element_located((By.TAG_NAME, "body"))
             )
             body = driver.find_element(By.TAG_NAME, 'body')
-            actions = ActionChains(driver)
-            actions.move_to_element_with_offset(body, 100, 100)
-            actions.click()
-            actions.perform()
+            # Clic directo sobre el body
+            body.click()
+            
             time.sleep(1)
             self.logger.info("Clic realizado en la página principal")
             return True
@@ -118,11 +117,39 @@ class FacebookCommentClicker:
         try:
             scroll_height = random.randint(300, 500)
             driver.execute_script(f"window.scrollBy({{top: {scroll_height}, left: 0, behavior: 'smooth'}});")
-            time.sleep(random.uniform(1.5, 2.5))
+            time.sleep(random.uniform(2, 3))
             return True
         except Exception as e:
             self.logger.error(f"Error durante el scroll: {e}")
             return False
+
+    def load_more_comments(self, driver):
+        # Intentar hacer clic en botones "Ver más comentarios" para expandirlos
+        buttons_texts = ["Ver más comentarios", "View more comments", "See more comments"]
+        clicked_any = False
+        for text in buttons_texts:
+            try:
+                # Busca cualquier botón con este texto
+                more_buttons = driver.find_elements(By.XPATH, f"//span[text()='{text}'] | //div[text()='{text}'] | //a[text()='{text}']")
+                for btn in more_buttons:
+                    if btn.is_displayed():
+                        self.logger.info(f"Encontrado botón '{text}', intentando cargar más comentarios.")
+                        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+                        time.sleep(1)
+                        try:
+                            # Esperar a que el elemento sea clickeable
+                            WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, f"//span[text()='{text}'] | //div[text()='{text}'] | //a[text()='{text}']"))).click()
+                            time.sleep(2)
+                            clicked_any = True
+                        except (ElementClickInterceptedException, TimeoutException):
+                            self.logger.info("El botón 'Ver más comentarios' no se pudo clicar directamente. Intentando con JS.")
+                            driver.execute_script("arguments[0].click();", btn)
+                            time.sleep(2)
+                            clicked_any = True
+            except NoSuchElementException:
+                # Si no se encuentra ningún botón con ese texto, pasa al siguiente
+                pass
+        return clicked_any
 
     def scan_and_click_page(self, driver):
         try:
@@ -133,15 +160,20 @@ class FacebookCommentClicker:
             time.sleep(3)
 
             while current_scroll_count < self.max_scroll_count:
-                comment_boxes_found = False
+                # Antes de buscar nuevos comentarios, intentamos cargar más comentarios
+                self.load_more_comments(driver)
+
+                # Buscamos cajas de texto de comentarios
                 elements = driver.find_elements(By.CSS_SELECTOR, "div[contenteditable='true'][role='textbox']")
+                comment_boxes_found = False
                 for element in elements:
                     if self.click_comment_box(driver, element, current_scroll_count):
                         comment_boxes_found = True
-                        break
 
+                # Si no se encontraron comentarios en esta pasada, tratamos de "paginar" (scroll)
                 if not comment_boxes_found:
-                    self.perform_scroll(driver)
+                    if not self.perform_scroll(driver):
+                        break
 
                 current_scroll_count += 1
         except Exception as e:
@@ -173,6 +205,6 @@ def responder_comentario(tipo):
 
 
 if __name__ == "__main__":
-    urls = ["https://web.facebook.com/profeMikhailKrasnov"]
+    urls = ["https://www.facebook.com/"]
     clicker = FacebookCommentClicker(urls=urls, scroll_count=5, click_delay=2)
     clicker.run()

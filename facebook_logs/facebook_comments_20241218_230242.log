@@ -1,0 +1,7 @@
+2024-12-18 23:02:42,171 - INFO - 127.0.0.1 - - [18/Dec/2024 23:02:42] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:02:42,224 - INFO - Current google-chrome version is 131.0.6778
+2024-12-18 23:02:42,225 - INFO - Get LATEST driver version for 131.0.6778
+2024-12-18 23:02:42,479 - ERROR - Error al configurar el driver: There is no such driver by url http://chromedriver.storage.googleapis.com/LATEST_RELEASE_131.0.6778
+2024-12-18 23:02:42,480 - ERROR - Error en la ejecución principal: There is no such driver by url http://chromedriver.storage.googleapis.com/LATEST_RELEASE_131.0.6778
+2024-12-18 23:02:44,199 - INFO - 127.0.0.1 - - [18/Dec/2024 23:02:44] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:11,985 - INFO -  * Detected change in 'C:\\Users\\ediSh\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\webdriver_manager\\firefox.py', reloading

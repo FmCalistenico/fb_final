@@ -1,0 +1,297 @@
+2024-12-18 23:25:17,883 - INFO - ====== WebDriver manager ======
+2024-12-18 23:25:17,898 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:17] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:18,991 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:19,105 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:19,187 - INFO - There is no [win64] chromedriver "131.0.6778.204" for browser google-chrome "131.0.6778" in cache
+2024-12-18 23:25:19,188 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:19,407 - INFO - WebDriver version 131.0.6778.204 selected
+2024-12-18 23:25:19,411 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.204/win32/chromedriver-win32.zip
+2024-12-18 23:25:19,412 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.204/win32/chromedriver-win32.zip
+2024-12-18 23:25:19,507 - INFO - Driver downloading response is 200
+2024-12-18 23:25:19,922 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:19] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:20,733 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:21,421 - INFO - Driver has been saved in cache [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204]
+2024-12-18 23:25:21,938 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:21] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:22,853 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:22] "POST /run_script HTTP/1.1" 200 -
+2024-12-18 23:25:22,857 - INFO - ====== WebDriver manager ======
+2024-12-18 23:25:22,880 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:22] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:23,957 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:23,965 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:24,108 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:24,224 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:25:24,905 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:24] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:24,979 - ERROR - Error al configurar el driver: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x008EEC13+23731]
+	(No symbol) [0x0087C394]
+	(No symbol) [0x0075BE63]
+	(No symbol) [0x0078B432]
+	(No symbol) [0x007870F9]
+	(No symbol) [0x007CB449]
+	(No symbol) [0x007CAC0A]
+	(No symbol) [0x007C1BF6]
+	(No symbol) [0x00793F35]
+	(No symbol) [0x00794EBD]
+	GetHandleVerifier [0x00BCF0D3+3039603]
+	GetHandleVerifier [0x00BE2DEA+3120778]
+	GetHandleVerifier [0x00BDB592+3089970]
+	GetHandleVerifier [0x009843B0+635984]
+	(No symbol) [0x00884DCD]
+	(No symbol) [0x00882068]
+	(No symbol) [0x00882205]
+	(No symbol) [0x00874FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:25:24,987 - ERROR - Error en la ejecución principal: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x008EEC13+23731]
+	(No symbol) [0x0087C394]
+	(No symbol) [0x0075BE63]
+	(No symbol) [0x0078B432]
+	(No symbol) [0x007870F9]
+	(No symbol) [0x007CB449]
+	(No symbol) [0x007CAC0A]
+	(No symbol) [0x007C1BF6]
+	(No symbol) [0x00793F35]
+	(No symbol) [0x00794EBD]
+	GetHandleVerifier [0x00BCF0D3+3039603]
+	GetHandleVerifier [0x00BE2DEA+3120778]
+	GetHandleVerifier [0x00BDB592+3089970]
+	GetHandleVerifier [0x009843B0+635984]
+	(No symbol) [0x00884DCD]
+	(No symbol) [0x00882068]
+	(No symbol) [0x00882205]
+	(No symbol) [0x00874FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:25:25,977 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:25] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:26,923 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:26] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:26,995 - ERROR - Error al configurar el driver: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x008EEC13+23731]
+	(No symbol) [0x0087C394]
+	(No symbol) [0x0075BE63]
+	(No symbol) [0x0078B432]
+	(No symbol) [0x007870F9]
+	(No symbol) [0x007CB449]
+	(No symbol) [0x007CAC0A]
+	(No symbol) [0x007C1BF6]
+	(No symbol) [0x00793F35]
+	(No symbol) [0x00794EBD]
+	GetHandleVerifier [0x00BCF0D3+3039603]
+	GetHandleVerifier [0x00BE2DEA+3120778]
+	GetHandleVerifier [0x00BDB592+3089970]
+	GetHandleVerifier [0x009843B0+635984]
+	(No symbol) [0x00884DCD]
+	(No symbol) [0x00882068]
+	(No symbol) [0x00882205]
+	(No symbol) [0x00874FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:25:27,000 - ERROR - Error en la ejecución principal: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x008EEC13+23731]
+	(No symbol) [0x0087C394]
+	(No symbol) [0x0075BE63]
+	(No symbol) [0x0078B432]
+	(No symbol) [0x007870F9]
+	(No symbol) [0x007CB449]
+	(No symbol) [0x007CAC0A]
+	(No symbol) [0x007C1BF6]
+	(No symbol) [0x00793F35]
+	(No symbol) [0x00794EBD]
+	GetHandleVerifier [0x00BCF0D3+3039603]
+	GetHandleVerifier [0x00BE2DEA+3120778]
+	GetHandleVerifier [0x00BDB592+3089970]
+	GetHandleVerifier [0x009843B0+635984]
+	(No symbol) [0x00884DCD]
+	(No symbol) [0x00882068]
+	(No symbol) [0x00882205]
+	(No symbol) [0x00874FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:25:28,004 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:28] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:28,940 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:28] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:38,407 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:38] "POST /run_script HTTP/1.1" 200 -
+2024-12-18 23:25:38,409 - INFO - ====== WebDriver manager ======
+2024-12-18 23:25:38,421 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:38] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:39,518 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:39,613 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:25:39,700 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:25:40,439 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:40] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:41,106 - INFO - Iniciando navegación a https://m.facebook.com/search_results/?q=mikhail+krasnov&__n=K
+2024-12-18 23:25:42,451 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:42] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:44,478 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:44] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:46,492 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:46] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:48,520 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:48] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:49,404 - ERROR - Error al hacer clic en la página principal: Message: move target out of bounds
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x008EEC13+23731]
+	(No symbol) [0x0087C394]
+	(No symbol) [0x0075BCD9]
+	(No symbol) [0x007E278D]
+	(No symbol) [0x007C1E5C]
+	(No symbol) [0x007DB46E]
+	(No symbol) [0x007C1BF6]
+	(No symbol) [0x00793F35]
+	(No symbol) [0x00794EBD]
+	GetHandleVerifier [0x00BCF0D3+3039603]
+	GetHandleVerifier [0x00BE2DEA+3120778]
+	GetHandleVerifier [0x00BDB592+3089970]
+	GetHandleVerifier [0x009843B0+635984]
+	(No symbol) [0x00884DCD]
+	(No symbol) [0x00882068]
+	(No symbol) [0x00882205]
+	(No symbol) [0x00874FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:25:49,412 - ERROR - No se pudo hacer clic inicial en la página principal
+2024-12-18 23:25:50,550 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:50] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:25:51,775 - INFO - Navegador cerrado correctamente
+2024-12-18 23:25:52,566 - INFO - 127.0.0.1 - - [18/Dec/2024 23:25:52] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:26:58,766 - INFO - 127.0.0.1 - - [18/Dec/2024 23:26:58] "POST /run_script HTTP/1.1" 200 -
+2024-12-18 23:26:58,768 - INFO - ====== WebDriver manager ======
+2024-12-18 23:26:58,787 - INFO - 127.0.0.1 - - [18/Dec/2024 23:26:58] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:00,143 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:27:00,240 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:27:00,326 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:27:00,810 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:00] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:02,026 - INFO - Iniciando navegación a https://www.facebook.com/
+2024-12-18 23:27:02,822 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:04,844 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:04] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:07,053 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:07] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:09,564 - ERROR - Error al hacer clic en la página principal: Message: move target out of bounds
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00F1EC13+23731]
+	(No symbol) [0x00EAC394]
+	(No symbol) [0x00D8BCD9]
+	(No symbol) [0x00E1278D]
+	(No symbol) [0x00DF1E5C]
+	(No symbol) [0x00E0B46E]
+	(No symbol) [0x00DF1BF6]
+	(No symbol) [0x00DC3F35]
+	(No symbol) [0x00DC4EBD]
+	GetHandleVerifier [0x011FF0D3+3039603]
+	GetHandleVerifier [0x01212DEA+3120778]
+	GetHandleVerifier [0x0120B592+3089970]
+	GetHandleVerifier [0x00FB43B0+635984]
+	(No symbol) [0x00EB4DCD]
+	(No symbol) [0x00EB2068]
+	(No symbol) [0x00EB2205]
+	(No symbol) [0x00EA4FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:27:09,569 - ERROR - No se pudo hacer clic inicial en la página principal
+2024-12-18 23:27:09,640 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:09] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:11,671 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:11] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:11,938 - INFO - Navegador cerrado correctamente
+2024-12-18 23:27:13,699 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:13] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:19,234 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:19] "POST /run_script HTTP/1.1" 200 -
+2024-12-18 23:27:19,236 - INFO - ====== WebDriver manager ======
+2024-12-18 23:27:19,248 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:19] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:20,354 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:27:20,443 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:27:20,531 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:27:21,268 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:21] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:21,775 - INFO - Iniciando navegación a https://www.facebook.com/
+2024-12-18 23:27:23,284 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:26,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:26] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:29,051 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:29] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:29,529 - ERROR - Error al hacer clic en la página principal: Message: move target out of bounds
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00F1EC13+23731]
+	(No symbol) [0x00EAC394]
+	(No symbol) [0x00D8BCD9]
+	(No symbol) [0x00E1278D]
+	(No symbol) [0x00DF1E5C]
+	(No symbol) [0x00E0B46E]
+	(No symbol) [0x00DF1BF6]
+	(No symbol) [0x00DC3F35]
+	(No symbol) [0x00DC4EBD]
+	GetHandleVerifier [0x011FF0D3+3039603]
+	GetHandleVerifier [0x01212DEA+3120778]
+	GetHandleVerifier [0x0120B592+3089970]
+	GetHandleVerifier [0x00FB43B0+635984]
+	(No symbol) [0x00EB4DCD]
+	(No symbol) [0x00EB2068]
+	(No symbol) [0x00EB2205]
+	(No symbol) [0x00EA4FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:27:29,551 - ERROR - No se pudo hacer clic inicial en la página principal
+2024-12-18 23:27:31,072 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:31] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:31,884 - INFO - Navegador cerrado correctamente
+2024-12-18 23:27:32,889 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:32] "POST /run_script HTTP/1.1" 200 -
+2024-12-18 23:27:32,890 - INFO - ====== WebDriver manager ======
+2024-12-18 23:27:32,903 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:32] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:33,095 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:33] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:34,150 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:27:34,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:27:34,322 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:27:34,923 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:34] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:35,112 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:35] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:35,647 - INFO - Iniciando navegación a https://www.facebook.com/
+2024-12-18 23:27:36,954 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:36] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:37,136 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:37] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:38,987 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:38] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:39,161 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:39] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:41,002 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:41,183 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:43,018 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:43] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:43,023 - ERROR - Error al hacer clic en la página principal: Message: move target out of bounds
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x00F1EC13+23731]
+	(No symbol) [0x00EAC394]
+	(No symbol) [0x00D8BCD9]
+	(No symbol) [0x00E1278D]
+	(No symbol) [0x00DF1E5C]
+	(No symbol) [0x00E0B46E]
+	(No symbol) [0x00DF1BF6]
+	(No symbol) [0x00DC3F35]
+	(No symbol) [0x00DC4EBD]
+	GetHandleVerifier [0x011FF0D3+3039603]
+	GetHandleVerifier [0x01212DEA+3120778]
+	GetHandleVerifier [0x0120B592+3089970]
+	GetHandleVerifier [0x00FB43B0+635984]
+	(No symbol) [0x00EB4DCD]
+	(No symbol) [0x00EB2068]
+	(No symbol) [0x00EB2205]
+	(No symbol) [0x00EA4FD0]
+	BaseThreadInitThunk [0x76827BA9+25]
+	RtlInitializeExceptionChain [0x77ADC0CB+107]
+	RtlClearBits [0x77ADC04F+191]
+
+2024-12-18 23:27:43,028 - ERROR - No se pudo hacer clic inicial en la página principal
+2024-12-18 23:27:43,207 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:43] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:45,041 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:45] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:45,230 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:45] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:45,287 - INFO - Navegador cerrado correctamente
+2024-12-18 23:27:47,058 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:47] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:27:47,248 - INFO - 127.0.0.1 - - [18/Dec/2024 23:27:47] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:30:53,722 - INFO -  * Detected change in 'C:\\Users\\ediSh\\Desktop\\fb Tunja\\automatic-Comments-facebook\\facebook_comment_clicker.py', reloading

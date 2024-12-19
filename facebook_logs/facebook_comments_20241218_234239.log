@@ -1,0 +1,28 @@
+2024-12-18 23:42:39,228 - INFO - ====== WebDriver manager ======
+2024-12-18 23:42:39,287 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:39] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:40,717 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:42:40,810 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-18 23:42:40,892 - INFO - Driver [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204\chromedriver-win32/chromedriver.exe] found in cache
+2024-12-18 23:42:41,303 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:41] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:42,869 - INFO - Iniciando navegación a https://www.facebook.com/
+2024-12-18 23:42:44,068 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:44] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:47,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:47] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:50,063 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:50] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:52,035 - INFO - Clic realizado en la página principal
+2024-12-18 23:42:53,068 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:53] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:56,073 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:56] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:42:59,068 - INFO - 127.0.0.1 - - [18/Dec/2024 23:42:59] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:02,072 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:02] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:05,067 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:08,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:08] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:11,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:11] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:14,057 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:14] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:17,066 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:17] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:20,064 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:20] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:20,135 - INFO - Comentario realizado: Valoramos tus comentarios.
+2024-12-18 23:43:23,059 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:23] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:24,868 - INFO - Comentario realizado: Gracias por tu opinión.
+2024-12-18 23:43:25,079 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:25] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:27,108 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:27] "GET /script_status HTTP/1.1" 200 -
+2024-12-18 23:43:27,498 - INFO - Navegador cerrado correctamente
+2024-12-18 23:43:29,137 - INFO - 127.0.0.1 - - [18/Dec/2024 23:43:29] "GET /script_status HTTP/1.1" 200 -
