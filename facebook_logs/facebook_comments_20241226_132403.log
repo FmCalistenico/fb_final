@@ -1,0 +1,20 @@
+2024-12-26 13:24:03,762 - INFO - ====== WebDriver manager ======
+2024-12-26 13:24:03,782 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:03] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:05,326 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-26 13:24:05,541 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-26 13:24:05,630 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-26 13:24:05,805 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:05] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:05,885 - INFO - WebDriver version 131.0.6778.204 selected
+2024-12-26 13:24:05,891 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.204/win32/chromedriver-win32.zip
+2024-12-26 13:24:05,893 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.204/win32/chromedriver-win32.zip
+2024-12-26 13:24:06,035 - INFO - Driver downloading response is 200
+2024-12-26 13:24:07,827 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:07] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:08,044 - INFO - Get LATEST chromedriver version for google-chrome
+2024-12-26 13:24:08,709 - INFO - Driver has been saved in cache [C:\Users\ediSh\.wdm\drivers\chromedriver\win64\131.0.6778.204]
+2024-12-26 13:24:09,855 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:09] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:11,405 - INFO - Iniciando navegación a https://www.facebook.com/
+2024-12-26 13:24:11,871 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:11] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:13,892 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:13] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:15,909 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:15] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:18,716 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:18] "GET /script_status HTTP/1.1" 200 -
+2024-12-26 13:24:20,749 - INFO - 127.0.0.1 - - [26/Dec/2024 13:24:20] "GET /script_status HTTP/1.1" 200 -
